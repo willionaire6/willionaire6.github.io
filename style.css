@@ -1,4 +1,4 @@
-@import url(//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular);
+/* @import url(//db.onlinewebfonts.com/c/b2e75c336df191233b3096682c9ee6be?family=PixelarRegularW01-Regular); */
 
 * {
     padding: 0;
@@ -14,7 +14,7 @@ body {
     top: 20px;
     left: 20px;
     color: white;
-    font-family: "PixelarRegularW01-Regular";
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
     font-size: 30px;
     font-weight: normal;
 }
@@ -41,7 +41,7 @@ body {
     width: 205px;
     text-align: center;
     color: rgb(255, 255, 74);
-    font-family: 'PixelarRegularW01-Regular';
+    font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
     font-weight: normal;
 }
 #gameoverscreen .title {
