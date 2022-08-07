@@ -235,11 +235,11 @@ function changeScoreUi() {
 }
 
 const gameSpeedConfig = {
-    'slow': 150,
-    'normal': 250,
-    'fast': 350,
-    'superfast': 450,
-    'ridiculous': 550
+    'slow': 100,
+    'normal': 200,
+    'fast': 300,
+    'superfast': 400,
+    'ridiculous': 500
 }
 
 function resetAllAnimations() {
