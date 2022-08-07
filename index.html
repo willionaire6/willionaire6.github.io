@@ -1,51 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rameneater</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" type="image/png" href="favicon.png">
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-55P9Q5ZTMJ"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-55P9Q5ZTMJ');
-    </script>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Willionaire6</title>
+    <link rel="stylesheet" href="style.css" > 
+    <link href="https://fonts.googleapis.com/css?family=Squada+One&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <div id="game">
-        <div id="block"></div>
-        <div id="hole"></div>
-        <div id="character"></div>
-        <div id="score">Score 0</div>
-        <div id="gameoverscreen" style="display: none;">
-            <h3 class="score">Score 0</h3>
-            <button>Play Again ?</button>
-            <div class="backdrop"></div>
-        </div>
-        <div id="star" style="display: none;"></div>
-    </div>
-    <script src="app.js" type="module"></script>
-    <!-- Default Statcounter code for flappy http://willionaire6.github.io -->
-    <script type="text/javascript">
-        var sc_project = 12730516;
-        var sc_invisible = 1;
-        var sc_security = "bc5de146";
-    </script>
-    <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
-    <noscript>
-        <div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/" target="_blank"><img
-                    class="statcounter" src="https://c.statcounter.com/12730516/0/bc5de146/1/" alt="Web Analytics"
-                    referrerPolicy="no-referrer-when-downgrade"></a></div>
-    </noscript>
-    <!-- End of Statcounter Code -->
+    <canvas id="canvas" width="276" height="414"></canvas>
+    <script src="game.js"></script>
 </body>
-
 </html>
