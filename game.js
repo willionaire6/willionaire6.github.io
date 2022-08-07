@@ -90,7 +90,7 @@
  const pipe = {
      top : {sprite : new Image()},
      bot : {sprite : new Image()},
-     gap:85,
+     gap:100,
      moved: true,
      pipes : [],
      draw : function(){
@@ -223,7 +223,7 @@
             }
             else if(pipe.moved)
             {
-                UI.score.curr++;
+                UI.score.curr+=10;
                 SFX.score.play();
                 pipe.moved = false;
             }
