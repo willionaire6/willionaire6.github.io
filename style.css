@@ -60,7 +60,7 @@ body {
     border: 0;
 }
 #star {
-    background: url(/img/bone.png);
+    background: url(/img/ramen.png);
     width: 35px;
     height: 35px;
     position: absolute;
@@ -98,7 +98,7 @@ body {
     height: 30px;
     position: absolute;
     border-radius: 50%;
-    background: url('/img/momo.png');
+    background: url('/img/hiro.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
